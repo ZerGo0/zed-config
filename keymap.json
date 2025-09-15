@@ -5,6 +5,7 @@
       "shift-f12": "editor::FindAllReferences",
       "f1": "command_palette::Toggle",
       "f3": "search::SelectNextMatch",
+      "f4": "editor::OpenExcerpts",
       "f8": "projects::OpenRecent",
       "f13": "editor::Hover",
       "f15": "pane::TogglePinTab",
@@ -12,6 +13,12 @@
       "f18": "editor::ToggleComments",
       "f19": "file_finder::Toggle",
       "f20": "workspace::NewSearch"
+    }
+  },
+  {
+    "context": "Editor && edit_prediction_conflict",
+    "bindings": {
+      "tab": "editor::AcceptEditPrediction"
     }
   }
 ]
