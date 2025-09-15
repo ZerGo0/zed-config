@@ -5,6 +5,9 @@
     "html": true,
     "wakatime": true
   },
+  "features": {
+    "edit_prediction_provider": "supermaven"
+  },
   "diagnostics": {
     "button": true,
     "include_warnings": true,
