@@ -7,6 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "git_panel": {
+    "dock": "left"
+  },
   "git": {
     "inline_blame": {
       "enabled": false,
@@ -60,5 +63,45 @@
     "mode": "system",
     "light": "Ayu Light",
     "dark": "Ayu Dark"
+  },
+  "languages": {
+    "TypeScript": {
+      "code_actions_on_format": {
+        "source.organizeImports": true,
+        "source.fixAll.eslint": true
+      }
+    }
+  },
+  "experimental.theme_overrides": {
+    "syntax": {
+      "comment": {
+        "font_style": "italic",
+        "color": "#474747"
+      },
+      "comment.doc": {
+        "font_style": "italic",
+        "color": "#474747"
+      },
+      "comment.js.doc": {
+        "font_style": "italic",
+        "color": "#474747"
+      },
+      "punctuation.comment": {
+        "font_style": "italic",
+        "color": "#474747"
+      },
+      "storage.type.class.jsdoc": {
+        "font_style": "italic",
+        "color": "#474747"
+      },
+      "entity.name.type.instance.jsdoc": {
+        "font_style": "italic",
+        "color": "#474747"
+      },
+      "variable.other.jsdoc": {
+        "font_style": "italic",
+        "color": "#474747"
+      }
+    }
   }
 }
