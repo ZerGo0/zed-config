@@ -4,6 +4,7 @@
       "ctrl-d": "editor::DeleteLine",
       "shift-f12": "editor::FindAllReferences",
       "f1": "command_palette::Toggle",
+      "f2": "editor::Rename",
       "f3": "search::SelectNextMatch",
       "f4": "editor::OpenExcerpts",
       "f8": "projects::OpenRecent",
