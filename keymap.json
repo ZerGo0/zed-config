@@ -12,7 +12,8 @@
       "f17": "workspace::NewSearch",
       "f18": "editor::ToggleComments",
       "f19": "file_finder::Toggle",
-      "f20": "workspace::NewSearch"
+      "f20": "workspace::NewSearch",
+      "alt-enter": "editor::ToggleCodeActions"
     }
   },
   {
