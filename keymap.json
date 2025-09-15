@@ -17,7 +17,8 @@
       "alt-enter": "editor::ToggleCodeActions",
       "cmd-u": "git::Pull",
       "ctrl-l": "git::CheckoutBranch",
-      "ctrl-w": "workspace::CloseWindow"
+      "ctrl-w": "workspace::CloseWindow",
+      "ctrl-h": "search::ToggleReplace"
     }
   },
   {
