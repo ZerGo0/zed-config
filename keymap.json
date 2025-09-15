@@ -16,7 +16,8 @@
       "f20": "workspace::NewSearch",
       "alt-enter": "editor::ToggleCodeActions",
       "cmd-u": "git::Pull",
-      "ctrl-l": "git::CheckoutBranch"
+      "ctrl-l": "git::CheckoutBranch",
+      "ctrl-w": "workspace::CloseWindow"
     }
   },
   {

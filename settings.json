@@ -2,7 +2,23 @@
   "auto_install_extensions": {
     "svelte": true,
     "astro": true,
-    "html": true
+    "html": true,
+    "wakatime": true
+  },
+  "diagnostics": {
+    "button": true,
+    "include_warnings": true,
+    "lsp_pull_diagnostics": {
+      "enabled": true,
+      "debounce_ms": 50
+    },
+    "inline": {
+      "enabled": true,
+      "update_debounce_ms": 150,
+      "padding": 4,
+      "min_column": 0,
+      "max_severity": null
+    }
   },
   "git_panel": {
     "dock": "left"
