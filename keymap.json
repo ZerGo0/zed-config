@@ -28,7 +28,7 @@
       "f15": "pane::TogglePinTab",
       "f17": "workspace::NewSearch",
       "f18": "editor::ToggleComments",
-      "f19": "editor::OpenSelectedFilename",
+      "f19": "file_finder::Toggle",
       "f20": "workspace::NewSearch"
     }
   }
