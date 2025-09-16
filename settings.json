@@ -6,7 +6,7 @@
     "wakatime": true
   },
   "features": {
-    "edit_prediction_provider": "supermaven"
+    "edit_prediction_provider": "zed"
   },
   "diagnostics": {
     "button": true,
