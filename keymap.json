@@ -1,6 +1,11 @@
 [
   {
     "bindings": {
+      "ctrl-h": null
+    }
+  },
+  {
+    "bindings": {
       "ctrl-d": "editor::DeleteLine",
       "shift-f12": "editor::FindAllReferences",
       "f1": "command_palette::Toggle",
