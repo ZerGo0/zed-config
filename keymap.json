@@ -5,6 +5,12 @@
     }
   },
   {
+    "context": "Editor && edit_prediction_conflict",
+    "bindings": {
+      "tab": "editor::AcceptEditPrediction"
+    }
+  },
+  {
     "bindings": {
       "ctrl-d": "editor::DeleteLine",
       "shift-f12": "editor::FindAllReferences",
@@ -23,13 +29,8 @@
       "cmd-u": "git::Pull",
       "ctrl-l": "git::CheckoutBranch",
       "ctrl-w": "workspace::CloseWindow",
-      "ctrl-h": "search::ToggleReplace"
-    }
-  },
-  {
-    "context": "Editor && edit_prediction_conflict",
-    "bindings": {
-      "tab": "editor::AcceptEditPrediction"
+      "ctrl-h": "search::ToggleReplace",
+      "cmd-g": "go_to_line::Toggle"
     }
   }
 ]
