@@ -5,7 +5,7 @@
     "html": true,
     "wakatime": true
   },
-  "soft_wrap": "bounded",
+  "soft_wrap": "editor_width",
   "features": {
     "edit_prediction_provider": "zed"
   },
