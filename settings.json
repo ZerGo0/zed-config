@@ -7,7 +7,7 @@
   },
   "soft_wrap": "editor_width",
   "features": {
-    "edit_prediction_provider": "zed"
+    "edit_prediction_provider": "copilot"
   },
   "diagnostics": {
     "button": true,
