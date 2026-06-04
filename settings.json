@@ -1,31 +1,43 @@
 {
+  "project_panel": {
+    "dock": "left",
+  },
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
   "auto_install_extensions": {
     "svelte": true,
     "astro": true,
     "html": true,
-    "wakatime": true
+    "wakatime": true,
   },
   "soft_wrap": "editor_width",
-  "features": {
-    "edit_prediction_provider": "copilot"
-  },
   "diagnostics": {
     "button": true,
     "include_warnings": true,
     "lsp_pull_diagnostics": {
       "enabled": true,
-      "debounce_ms": 50
+      "debounce_ms": 50,
     },
     "inline": {
       "enabled": true,
       "update_debounce_ms": 150,
       "padding": 4,
       "min_column": 0,
-      "max_severity": null
-    }
+      "max_severity": null,
+    },
   },
   "git_panel": {
-    "dock": "left"
+    "tree_view": true,
+    "dock": "left",
   },
   "git": {
     "inline_blame": {
@@ -33,8 +45,8 @@
       "delay_ms": 0,
       "padding": 7,
       "min_column": 0,
-      "show_commit_summary": false
-    }
+      "show_commit_summary": false,
+    },
   },
   "inlay_hints": {
     "enabled": true,
@@ -50,77 +62,74 @@
       "alt": false,
       "shift": false,
       "platform": false,
-      "function": false
-    }
+      "function": false,
+    },
   },
   "buffer_font_features": {
-    "calt": 0
+    "calt": 0,
   },
   "gutter": {
-    "folds": true
+    "folds": true,
   },
   "minimap": {
-    "show": "never"
+    "show": "never",
   },
   "terminal": {
-    "font_size": 16.0
+    "font_size": 16.0,
   },
   "file_types": {
-    "properties": [
-      "*.env"
-    ]
+    "properties": ["*.env"],
   },
   "tab_size": 2,
   "base_keymap": "VSCode",
   "telemetry": {
     "diagnostics": false,
-    "metrics": false
+    "metrics": false,
   },
   "ui_font_size": 16,
   "buffer_font_size": 16.0,
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
-    "dark": "Ayu Dark"
+    "dark": "Ayu Dark",
   },
   "languages": {
     "TypeScript": {
       "code_actions_on_format": {
-        "source.organizeImports": true,
-        "source.fixAll.eslint": true
-      }
-    }
+        "source.fixAll.eslint": true,
+      },
+    },
   },
   "experimental.theme_overrides": {
     "syntax": {
       "comment": {
         "font_style": "italic",
-        "color": "#474747"
+        "color": "#474747",
       },
       "comment.doc": {
         "font_style": "italic",
-        "color": "#474747"
+        "color": "#474747",
       },
       "comment.js.doc": {
         "font_style": "italic",
-        "color": "#474747"
+        "color": "#474747",
       },
       "punctuation.comment": {
         "font_style": "italic",
-        "color": "#474747"
+        "color": "#474747",
       },
       "storage.type.class.jsdoc": {
         "font_style": "italic",
-        "color": "#474747"
+        "color": "#474747",
       },
       "entity.name.type.instance.jsdoc": {
         "font_style": "italic",
-        "color": "#474747"
+        "color": "#474747",
       },
       "variable.other.jsdoc": {
         "font_style": "italic",
-        "color": "#474747"
-      }
-    }
-  }
+        "color": "#474747",
+      },
+    },
+  },
 }
