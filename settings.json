@@ -68,6 +68,7 @@
   "buffer_font_features": {
     "calt": 0,
   },
+  "buffer_font_family": "Hack Nerd Font",
   "gutter": {
     "folds": true,
   },
@@ -75,7 +76,8 @@
     "show": "never",
   },
   "terminal": {
-    "font_size": 16.0,
+    "font_family": "Hack Nerd Font",
+    "font_size": 15.0,
   },
   "file_types": {
     "properties": ["*.env"],
@@ -86,8 +88,8 @@
     "diagnostics": false,
     "metrics": false,
   },
-  "ui_font_size": 16,
-  "buffer_font_size": 16.0,
+  "ui_font_size": 15,
+  "buffer_font_size": 15.0,
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
@@ -129,6 +131,17 @@
       "variable.other.jsdoc": {
         "font_style": "italic",
         "color": "#474747",
+      },
+    },
+  },
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "vtsls": {
+          "experimental": {
+            "maxInlayHintLength": 45,
+          },
+        },
       },
     },
   },
