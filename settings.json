@@ -7,6 +7,7 @@
     "dock": "left",
   },
   "collaboration_panel": {
+    "button": false,
     "dock": "left",
   },
   "agent": {
@@ -21,6 +22,8 @@
     "wakatime": true,
   },
   "soft_wrap": "editor_width",
+  "enable_language_server": false,
+  "disable_ai": true,
   "diagnostics": {
     "button": true,
     "include_warnings": true,
@@ -37,6 +40,7 @@
     },
   },
   "git_panel": {
+    "group_by": "staging",
     "tree_view": true,
     "dock": "left",
   },
