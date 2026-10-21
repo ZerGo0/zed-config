@@ -19,7 +19,6 @@
     "svelte": true,
     "astro": true,
     "html": true,
-    "wakatime": true,
   },
   "soft_wrap": "editor_width",
   "enable_language_server": false,
